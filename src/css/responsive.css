@@ -1,0 +1,37 @@
+@media(max-width: 711px) {
+
+    .container .box {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .container nav {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container .menu {
+        display: block;
+        margin-top: 50px;
+    }
+
+
+    .container .menu li {
+        margin-left: 0;
+    }
+
+    .container .menu li a {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .container .menu li:nth-child(6) a {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .container .menu li {
+        margin-bottom: 50px;
+    }
+}

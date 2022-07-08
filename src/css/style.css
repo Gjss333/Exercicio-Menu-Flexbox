@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    padding: 45px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .box {
+    display: flex;
+    align-items: center;
+}
+
+.container .box .logo{
+    display: block;
+    background: url(../images/logo.png) center center no-repeat;
+    width: 45px;
+    height: 42px;
+}
+
+.container .box h1 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 5.59px;
+}
+
+.container .menu {
+    display: flex;
+}
+
+
+.container .menu li {
+    margin-left: 30px;
+}
+
+.container .menu li:nth-child(2) a {
+    background-color: #5BC241;
+    color: white;
+    padding: 11px 6px;
+}
+
+.container .menu li:nth-child(6) a {
+    background-color: #5BC241;
+    color: white;
+    padding: 10px 21px 11px 21px;
+    border-radius: 10px;
+}
